@@ -1,0 +1,8 @@
+Host tandy@server.local
+  Hostname server.local
+  User tandy
+  IdentityFile ~/.ssh/tandy_id_rsa
+Host borg@server.local
+  Hostname server.local
+  User borg
+  IdentityFile ~/.ssh/borg_id_rsa
