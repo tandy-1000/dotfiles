@@ -3,12 +3,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export PATH=/home/tandy/.nimble/bin:$PATH
-export PATH=/home/tandy/.local/bin:$PATH
-
-export LASTFM_API_KEY=b2cb702819bf923bd8eba9cf6f8bed71
-export LASTFM_API_SECRET=8a113eec2e3c40cd05817f31d6d1715e
-
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
@@ -20,4 +14,3 @@ alias rm="rm -i"
 
 alias off='sudo poweroff'
 alias on='sudo reboot'
-
