@@ -7,7 +7,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias install='sudo dnf install'
-alias upgrade='sudo dnf upgrade'
+alias upgrade='sudo dnf offline-upgrade download'
 alias remove='sudo dnf remove'
 
 alias rm="rm -i"
