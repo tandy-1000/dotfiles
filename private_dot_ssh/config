@@ -9,3 +9,8 @@ Host github.com
   Hostname github.com
   User tandy-1000
   IdentityFile ~/.ssh/github_ed25519
+
+Host gitlab.com
+  Hostname gitlab.com
+  User tandy-1000
+  IdentityFile ~/.ssh/gitlab_ed25519
