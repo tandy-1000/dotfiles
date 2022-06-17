@@ -1,4 +1,7 @@
 #!/bin/bash
 
-# dconf.ini hash: {{ include "dconf.ini" | sha256sum }}
-dconf load / < {{ joinPath .chezmoi.sourceDir "dconf.ini" | quote }}
+
+{{ if ne .chezmoi.hostname "pine64-pinephone" }}
+  # dconf.ini hash: {{ include "dconf.ini" | sha256sum }}
+  dconf load / < {{ joinPath .chezmoi.sourceDir "dconf.ini" | quote }}
+{{ end }}
