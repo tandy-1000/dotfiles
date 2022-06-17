@@ -1,1 +1,8 @@
 dconf.ini
+
+{{- if eq .chezmoi.hostname "pine64-pinephone" }}
+.config/setzer
+.config/VSCodium
+.bash_profile
+.bash_rc
+{{- end }}
